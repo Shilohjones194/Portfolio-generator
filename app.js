@@ -3,6 +3,9 @@ const generatePage = require('./src/page-template.js');
 const profileDataArgs = process.argv.slice(2);
 const [name, github] = profileDataArgs;
 
+
+
+
 // // Notice the lack of parentheses around the `profileDataArr` parameter?
 // const printProfileData = profileDataArr => {
 //     //this...
