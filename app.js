@@ -1,9 +1,9 @@
-//const fs = require('fs');
+const fs = require('fs');
 const inquirer = require('inquirer');
 const generatePage = require('./src/page-template.js');
 const { writeFile, copyFile } = require('./utils/generate-site');
 
-//const pageHTML = generatePage(name, github);
+
 
 // fs.writeFile('./index.html', pageHTML, err => {
 //     if (err) throw err;
@@ -39,7 +39,7 @@ const { writeFile, copyFile } = require('./utils/generate-site');
 
 
 
-// Below is Template literals
+// Below is TEMPLATE LITERALS
 // const generatePage = (userName, githubName) => `Name: ${userName}, Github: ${githubName}`;
 
 // console.log(generatePage('Jane', 'janehub'));
